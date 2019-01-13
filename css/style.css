@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #707070;
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    color: #707070;
+    transition: 0.3s;
+}
+
+a.nav-link:hover {
+    color: #309FFE;
+}
+
+.fa {
+    color: #707070;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.imgContainer {
+    max-width: 500px;
+    max-height: auto;
+}
+
+.btnStyle {
+    background-color: #309EFF; 
+    color: white;
+    border-radius: 48px; 
+    width: 250px; 
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+a.btnStyle:hover {
+    color: white;
+    opacity: 1;
+}
+
+#navigation {
+    background-color: white; 
+    opacity: .9;
+}
+
+#me {
+    color: #309EFF;
+}
